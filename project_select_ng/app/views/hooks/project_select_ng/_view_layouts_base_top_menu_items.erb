@@ -1,0 +1,5 @@
+<div style="float:left;">
+  <%= select_tag 'project-jump-id',
+                 options_for_select(Project.visible.sort_by { |p| p.name.downcase }.collect { |p| [p.name, p.id] }.insert(0, "")),
+                   :class => "chzn-select", :style => "width: 200px;", "data-placeholder" => "Jump to project..." %>
+</div>
