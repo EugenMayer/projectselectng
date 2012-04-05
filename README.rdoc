@@ -1,3 +1,27 @@
-= project_select_ng
+= Project search NG plugin
 
-Shows a project search in a chosen-select field
+Shows a project search in a select field in the main menu.
+This plugin should be used together with the {Chosen Select Boxes Plugin}[https://github.com/EugenMayer/chosen_select_boxes]
+to allow a quick search for a project.
+
+== Getting the plugin
+
+A copy of the plugin can be downloaded from {GitHub}[https://github.com/EugenMayer/projectselectng]
+
+
+== Installation and Setup
+
+1. Make sure the plugin is installed in +vendor/plugins/projectselectng+
+2. Add the following view hook to your app/views/layouts/base.rhtml file as the first 
+   line in the div #top-menu-items
+   +<%= call_hook :view_layouts_base_top_menu_items %>+
+3. (optional but recommended) Install  the {Chosen Select Boxes Plugin}[https://github.com/EugenMayer/chosen_select_boxes]
+4. Restart your Chiliproject/Redmine web servers (e.g. mongrel, thin, mod_rails)
+
+== License
+
+This plugin is licensed under the GNU AGPL v3. See COPYRIGHT.txt and AGPL.txt for details.
+
+== Sponsoring
+
+The development of this plugin was sponsored by {KontextWork}[http://kontextwork.de]
