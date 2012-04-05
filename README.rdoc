@@ -14,7 +14,7 @@ A copy of the plugin can be downloaded from {GitHub}[https://github.com/EugenMay
 1. Make sure the plugin is installed in +vendor/plugins/projectselectng+
 2. Add the following view hook to your app/views/layouts/base.rhtml file as the first 
    line in the div #top-menu-items
-   +<%= call_hook :view_layouts_base_top_menu_items %>+
+  <tt><%= call_hook :view_layouts_base_top_menu_items %></tt>
 3. (optional but recommended) Install  the {Chosen Select Boxes Plugin}[https://github.com/EugenMayer/chosen_select_boxes]
 4. Restart your Chiliproject/Redmine web servers (e.g. mongrel, thin, mod_rails)
 
