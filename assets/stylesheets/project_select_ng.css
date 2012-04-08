@@ -1,0 +1,7 @@
+div#project_select_ng {
+  float: left;
+}
+
+div#project_select_ng select {
+  width: 200px;
+}
