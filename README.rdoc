@@ -7,11 +7,11 @@ to allow a quick search for a project.
 == Getting the plugin
 
 A copy of the plugin can be downloaded from {GitHub}[https://github.com/EugenMayer/projectselectng]
-
+example: git clone https://github.com/EugenMayer/projectselectng.git project_select_ng
 
 == Installation and Setup
 
-1. Make sure the plugin is installed in +vendor/plugins/projectselectng+
+1. Make sure the plugin is installed in +vendor/plugins/project_select_ng+
 2. Add the following view hook to your +app/views/layouts/base.rhtml+ file as the first 
    line in the div +#top-menu-items+:
    <tt><%= call_hook :view_layouts_base_top_menu_items %></tt>
